@@ -14,8 +14,8 @@ export default class Home extends Component {
     }, 5000)
     api.blog.getBlogPosts().then(res => console.log(res?.data)).catch(err => alert(err))
     // api.blog.postBlogPost({body: 'Mallo hallo', author: 'Chuvak', title: "Some title"}).then(res => console.log(res?.data)).catch(err => alert(err))
-    // api.blog.deleteBlogPost("5f206a4ef39d8c145fea5dc7").then(res => console.log(res?.data)).catch(err => alert(err))
-    // api.blog.updateBlogPost("5f206a4ef39d8c145fea5dc7", {body: 'Mallo hallo', author: 'Chuvak', title: "Some title"}).then(res => console.log(res?.data)).catch(err => alert(err))
+    // api.blog.deleteBlogPost('5f206ca6e4ebc818032e7993').then(res => console.log(res?.data)).catch(err => alert(err))
+    // api.blog.updateBlogPost('5f206caae4ebc818032e7994', {body: 'hallo', author: 'Chuvak', title: "Some title"}).then(res => console.log(res?.data)).catch(err => alert(err))
 
   }
 
