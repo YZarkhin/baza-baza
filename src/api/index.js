@@ -7,4 +7,10 @@ export default {
     updateBlogPost,
     deleteBlogPost
   },
+  teams: {
+    getTeams,
+    postTeam,
+    updateTeam,
+    deleteTeam,
+  }
 }
