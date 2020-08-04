@@ -7,4 +7,10 @@ export default {
     updateBlogPost,
     deleteBlogPost
   },
+  projects: {
+    getProjects,
+    postProject,
+    updateProject,
+    deleteProject
+  }
 }
